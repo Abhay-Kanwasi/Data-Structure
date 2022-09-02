@@ -1,6 +1,10 @@
-# Question 1
+# Data-Structure
 
-"""Let us say your expense for every month are listed below,
+## Array
+
+__Questions we solve__
+
+Let us say your expense for every month are listed below,
 January - 2200
 February - 2350
 March - 2600
@@ -14,5 +18,4 @@ Create a list to store these monthly expenses and using that find out,
 4. June month just finished and your expense is 1980 dollar. Add this item to our monthly expense list
 5. You returned an item that you bought in a month of April and
 got a refund of 200$. Make a correction to your monthly expense list
-based on this"""
-
+based on this
