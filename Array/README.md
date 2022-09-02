@@ -1,6 +1,4 @@
-# Data-Structure
-
-## Array
+# Array
 
 __Questions we solve__
 
