@@ -1,6 +1,6 @@
 # Array
 
-__Questions we solve__
+## Questions we solve
 
 __Question 1__
 
