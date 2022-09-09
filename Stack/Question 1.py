@@ -1,5 +1,6 @@
 """
-1. Write a function in python that can reverse a string using stack data structure. 
+Write a function in python that can reverse a string using stack data structure. 
+
 reverse_string("We will conquere COVID-19") should return "91-DIVOC ereuqnoc lliw eW")
 """
 
