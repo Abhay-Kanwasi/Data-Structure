@@ -8,17 +8,17 @@ from collections import deque
 # 1. Direct Approch 
 
 
-# stack = deque()
+stack = deque()
 
-# def reverse_string(string):
-#     rstr = ''
-#     for char in string:
-#         stack.append(char)
-#         rstr = char + rstr
-#     print(rstr)
+def reverse_string(string):
+    rstr = ''
+    for char in string:
+        stack.append(char)
+        rstr = char + rstr
+    print(rstr)
     
-# string = "We will conquere COVID-19"
-# reverse_string(string)
+string = "We will conquere COVID-19"
+reverse_string(string)
 
 
 
