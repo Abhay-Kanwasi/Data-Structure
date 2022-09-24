@@ -67,5 +67,32 @@
 
 
 # 2. Using Queue class
-#  
+
+def enqueue(element):
+    a_queue.put_nowait(element)
+
+def dequeue():
+    if not a_queue:
+        print("queue is empty.")
+    else:
+        e = a_queue.get_nowait()
+        print("removed element : ",e)
+
+import queue
+a_queue = queue.Queue(maxsize=5) #This will restrict the size of the queue(for infinite size set maxsize = 0)
+print("Operations\n1. Add element\n2. Delete element\n3. Display element\n4. Quit")
+while True:
+    choice = int(input("Enter your choice : "))
+    if choice == 1:
+        element = int(input("Enter the number : "))
+        enqueue(element)
+    elif choice == 2:
+        dequeue()
+    elif choice == 3:
+        print(a_queue)
+    elif choice == 4:
+        break
+    else:
+        print("Please enter a valid choice.\n")
+
 
