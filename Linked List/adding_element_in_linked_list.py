@@ -1,5 +1,8 @@
 # For implementing insertion of element in Linked List follow these steps..
 
+
+# 1. For adding element at the beginning of the linked list.
+
 class Node: # Step 1 : Create a node.
     def __init__(self,data): # We don't mention ref here because it is going to be None.
         self.data = data
@@ -30,8 +33,14 @@ class Linked_list:
 
 LL1 = Linked_list() # Created a instance of class Linked List.
 LL1.add_begin(10)
+LL1.add_begin(20)
 LL1.print_LinkedList() # We want to check this is working or not.
 
-# It will print before adding 10 Linked List is empty now we succesfully added 10.
+# It will print before adding 10 Linked List is empty now we succesfully added 20 and 10. (first it will print 20 because we are adding elements at the beginning.)
+
+
+
+
+
 
      
