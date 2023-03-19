@@ -108,7 +108,8 @@ test_case8.append({'output' : 8})
 
 
 
-
-
+tests = []
+tests.append(test_case1)
+print(tests)
 
 
