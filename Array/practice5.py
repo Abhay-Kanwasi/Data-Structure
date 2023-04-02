@@ -20,4 +20,3 @@ array1 = array('i', [2, 3, 3, 1, 2])
 array2 = array1
 array3 = array1 + array2
 print(array3)
-
