@@ -40,3 +40,8 @@ Using this find out,
    So you want to remove thor and hulk from list and replace them with doctor strange (because he is cool).
    Do that with one line of code.
 5. Sort the heros list in alphabetical order (Hint. Use dir() functions to list down all functions available in list)
+
+__Question 3__
+
+Create a one-dimensional integer array and insert numbers to the maximum size provided until the end of the array. Access the numbers inserted and then display the same as output.
+
