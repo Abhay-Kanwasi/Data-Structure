@@ -1,5 +1,10 @@
 # Array
 
+Linear Data Structure <br>
+Contiguous memory locations <br>
+Access elements randomly <br>
+Homogeneous elements i.e similar data type elements <br>
+
 ## Questions we solve
 
 __Question 1__
