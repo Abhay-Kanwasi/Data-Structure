@@ -5,6 +5,15 @@ Contiguous memory locations <br>
 Access elements randomly <br>
 Homogeneous elements i.e similar data type elements <br>
 
+
+### We can solve homogeneous element problem by using referencial arrays
+Normal array use call by value to manage array. But in case of referencial array we store each element in different memory location. Then make an array in that array rather than storing element we store addresses of the array. This is called call by reference.
+
+## PYTHON LIST IS AN REFERENCIAL ARRAY, INTERNALLY IT'S A DYNAMIC ARRAY
+
+# Dynamic Array
+In dynamic array we take a static array suppose we have a array of size 3 then if we have more elments then three we just double the size of the array and copy all the elements of previous array in it now this is also an static array and this is go on
+
 ## Questions we solve
 
 __Question 1__
