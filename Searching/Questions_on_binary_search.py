@@ -71,4 +71,25 @@ def occurence(key):
 
 '''
 # Question 3 : Peak index in a mountain array
+
+Algorithm
+
+Step 1 : Mid nikaal lo
+Step 2 : if arr[mid] < arr[mid + 1] in this case start_index = mid + 1
+Step 3 : if arr[mid] > arr[mid + 1] in this case end_index = mid
 '''
+
+def peak_element(arr):
+    start_index = 0
+    end_index = len(arr) - 1
+    mid_index = int((start_index + end_index)/2)
+    while(start_index < end_index):
+        if arr[mid_index] < arr[mid_index + 1]:
+            start_index = mid_index + 1
+        else: 
+            end_index = mid_index
+        mid_index = int((start_index + end_index)/2)
+    return mid_index
+
+arr = [3, 5, 1, 0]
+print(peak_element(arr))
