@@ -54,11 +54,10 @@ def binary_search_decreasing_order(array, key, size_of_array):
         mid_index = int((start_index + end_index)/2)
     return 'Element not found'
 
-print(binary_search_decreasing_order(array, key, size_of_array))
-
 array = [2,4,6,8,9]
 size = len(array)
 key = 9
 
+print(binary_search_decreasing_order(array, key, size))
 print(binary_search_ascending_order(array, size, key))
 
