@@ -1,11 +1,11 @@
 # Data-Structure
 
-__1. Array__
+### - Algorithms
+### - Array
+### - Linked List
+### - Object Oriented Programming
+### - Queue
+### - Recursion
+### - Searching
+### - Stack
 
-__2. Stack__
-
-__3. Queue__
-
-__4. Linked List__
-
-__5. Algorithms__
