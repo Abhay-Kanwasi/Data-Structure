@@ -55,6 +55,25 @@ const dictionary_function = async () => {
 
 
 // Accessing Methods
-var fees = {abhay: 100, smay: 200, total: function () {return 100 + 200}}
-console.log(fees.total())
-console.log(fees['abhay'])
+const fees = {
+  abhay: 100, smay: 200, total: function () {
+    return 100 + 200
+  }
+};
+// console.log(fees.total())
+// console.log(fees['abhay'])
+
+// Private variables
+var Mobile = function(model_no, sprice) {
+  this.model_no = model_no;
+  this.color = 'white';
+  var price = 3000;
+  this.sp = sprice;
+  this.selling_price = function () {return (price)};
+  var show = function () { return "Hello World" };
+};
+
+var Samsung = new Mobile('Galaxy', 2000);
+var Nokia = new Mobile('3310', 1000);
+console.log(Nokia.model_no)
+console.log(Samsung.selling_price())
