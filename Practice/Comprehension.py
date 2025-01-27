@@ -231,6 +231,3 @@ if 'd' in dict_1:
 else:
     print('key not found')
 
-
-
-
