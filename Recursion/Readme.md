@@ -17,6 +17,11 @@ In this function, the base case is when n equals 1. In this case, the function r
 
 For example, to calculate sum(4), the function first checks if n is equal to 1. Since it's not, it calculates n + sum(n-1) as 4 + sum(3). It then calls sum(3), which in turn calls sum(2), sum(1), and returns 1. The function then returns 4 + 3 + 2 + 1 = 10.
 
+### 2 type of recursion
+
+1. Head Recursion: In this type of recursion the recursive call is made before other processing in the function.
+2. Tail Recursion: In this type of processing done before recursive call.
+
 ## Conclusion
 
 Recursion is a powerful and elegant way to solve problems that can be broken down into smaller, similar subproblems. It is often used to traverse and manipulate data structures such as trees and graphs. To use recursion effectively, you need to identify the base case and the recursive case, and make sure the function stops calling itself when the base case is reached.
